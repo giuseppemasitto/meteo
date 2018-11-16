@@ -1,2 +1,2 @@
-# quajetri-weather
-Server files
+# weather
+server files
