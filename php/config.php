@@ -7,7 +7,7 @@
 	);
 	
 	$client = array(
-		'key'=>'your_client_password'
+		'key'=>'chiave_di_sicurezza'
 	);
 	
 	$impostazioni = array(
