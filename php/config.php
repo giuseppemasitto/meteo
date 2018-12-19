@@ -1,6 +1,6 @@
 <?php
 	$database = array(
-		'host'=>'sql.hostname',
+		'host'=>'hostname',
 		'username'=>'username',
 		'password'=>'password',
 		'database'=>'database_name'
