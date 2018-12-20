@@ -2,10 +2,10 @@
 	// importa il file di configurazione
 	include('config.php');
 
-	# inizializza la variabile per la gestione della connessione
+	// inizializza la variabile per la gestione della connessione
 	$conn = mysqli_connect($database['host'], $database['username'], $database['password'], $database['database']);
 	if (mysqli_connect_errno()) {
-		# gestisce l'errore della connessione
+		// gestisce l'errore della connessione
 		die("code:error_connect_database");
 	} 
 	
@@ -44,7 +44,7 @@
 				break;
 		}
 	} else {
-		// genera un errore per la chiave di sicurezza
+		// altrimenti genera un errore
 		echo "code:error_notauthorized";
 	}
 	
